@@ -21,7 +21,7 @@ jobs:
           key: ${{secrets.aws_ssh_key}}
           script: |
             cd /var/www/html/nodejs-cicd-lab
-            git pull origin main
+            git pull
             docker compose up -d --build
           
 
