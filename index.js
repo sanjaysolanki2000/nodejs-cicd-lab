@@ -21,7 +21,8 @@ app.get('/', (req, res) => {
       "GET /students/:id": "Get a single student record by ID",
       "POST /students": "Create a new student record (JSON body: { name, age, course })",
       "PUT /students/:id": "Update an existing student record (JSON body: { name, age, course })",
-      "DELETE /students/:id": "Delete a student record by ID"
+      "DELETE /students/:id": "Delete a student record by ID",
+      "VERSION": "1.0.1"
     }
   });
 });
